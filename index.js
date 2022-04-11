@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 const cli = require("commander");
+const dotenv = require("dotenv");
+
+//configure dot env
+dotenv.config();
 
 const auth = require("./auth");
 const init = require("./init");

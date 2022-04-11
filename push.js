@@ -36,9 +36,9 @@ const push = async () => {
 
       //push file to google drive
       const oauth2Client = new google.auth.OAuth2(
-        "845827732371-luohkejkcfoo8eiaku0qt31ruvalp5ja.apps.googleusercontent.com",
-        "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",
-        "http://localhost:2000/callback"
+        process.env.GOOGLE_CLIENT_ID,
+        process.env.GOOGLE_API_SECRET,
+        process.env.REDIRECT_URI
       );
       oauth2Client.setCredentials(authSetting);
 
