@@ -1,0 +1,24 @@
+{
+  "name": "gdhub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gdhub": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "2.4",
+    "commander": "^9.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "googleapis": "^100.0.0",
+    "open": "^8.4.0"
+  }
+}
